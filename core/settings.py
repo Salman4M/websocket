@@ -140,17 +140,3 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-AUTH_USER_MODEL = 'accounts.MyUser'
-
-
-#for console
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-
-#for real mail
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'salmanmemmedli01@gmail.com'
-EMAIL_HOST_PASSWORD = 'hzhvqbmjzxhbkuah'
-EMAIL_PORT= 465
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
